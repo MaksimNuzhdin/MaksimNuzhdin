@@ -19,17 +19,6 @@
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
 </div>
 
-### :man_technologist: About Me :<br>
-I am a Python Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Israel
-
-- :seedling: I’m currently learning Python, Django framework and Data-Science
-
-- :zap: In my free time, I solve problems on GeeksforGeeks and read tech articles.
-
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-linkedin-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/maksim-nuzhdin-07ab96242/)
-- 🔭 You also can to visit my vebsite [![Badge](https://img.shields.io/badge/-mysite-black?style=flat&logoColor=black)](https://nuzhdinmaksim.com/)
-
-- 🤔 I’m looking for work in Hi-tech
   
   
 
