@@ -1,39 +1,34 @@
-<div id="header" align="left">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-</div>
-<div id="badges">
-  <a href="https://www.linkedin.com/in/maksim-nuzhdin-07ab96242/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a><br>
-  
-  <a href="https://nuzhdinmaksim.com/">
-    <img src="https://img.shields.io/badge/MySite-blue?style=for-the-badge&logoColor=white" alt="LinkedIn Badge"/>
-  </a><br>
-<img src="https://komarev.com/ghpvc/?username=MaksimNuzhdin&style=flat-square&color=blue" alt=""/><br>
-<h1>
-  Hi there
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-</h1>
+# Maksim Nuzhdin
 
-<div align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
-</div>
+**Embedded Engineer · Camera Firmware · FPGA & Embedded Vision**
 
-  
-  
+Based in Haifa, Israel. I develop embedded software and firmware for camera systems, with a focus on device control, image acquisition, hardware interfaces and debugging across firmware, FPGA and host software.
 
-  
-  <!--
-**MaksimNuzhdin/MaksimNuzhdin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Core competencies
 
-Here are some ideas to get you started:
+- **Embedded C/C++:** camera firmware, device drivers, register maps, peripheral control and hardware bring-up.
+- **Camera interfaces and control:** GenICam/GenApi XML, GigE Vision, CoaXPress, MIPI CSI-2 and V4L2 integration.
+- **FPGA and SoC development:** AMD/Xilinx Zynq UltraScale+, Vivado, Vitis, RTL/HLS integration and image-processing pipelines.
+- **System integration and debugging:** acquisition timing, exposure and trigger control, image transport, firmware updates and customer issue investigation.
+- **Engineering tools:** Python utilities, automated checks, Git and technical documentation.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Featured project — DinxTech MaxCamera
+
+[**MaxCamera**](https://github.com/MaksimNuzhdin/MaxCamera) is my embedded vision portfolio project built around an **ALINX AXU2CGB (Zynq UltraScale+ XCZU2CG)** and an **OV5640 camera module**.
+
+The project combines:
+
+- **R5 firmware** for camera control, acquisition and UDP image transport.
+- An **FPGA ISP** with defect-pixel correction, black-level correction, gains/AWB, color correction, tone/gamma, denoising, sharpening and bounded scaling.
+- **GenApi XML**, local device drivers, host utilities and offline tests.
+- Source-based hardware reconstruction, build instructions, architecture documentation and verification reports.
+
+A bounded test in the original development workspace delivered **57 frames at 14.29 FPS**, from a 320 × 240 RGB input scaled to 1280 × 960, with no missing or incomplete frames. A saved output frame exactly matched an independent Q12 reference.
+
+See the repository's [verification scope](https://github.com/MaksimNuzhdin/MaxCamera/blob/main/docs/VERIFICATION.md) for test conditions and qualification limits.
+
+[Explore MaxCamera](https://github.com/MaksimNuzhdin/MaxCamera) · [Documentation](https://github.com/MaksimNuzhdin/MaxCamera/blob/main/docs/INDEX.md)
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/maksim-nuzhdin-07ab96242/) · [Website](https://nuzhdinmaksim.com/)
